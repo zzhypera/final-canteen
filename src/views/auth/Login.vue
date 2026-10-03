@@ -1,7 +1,7 @@
 <template>
   <div class="auth-page">
     <div class="auth-brand">
-      <RouterLink to="/" class="brand"><span class="brand-mark">C</span> Campus<span>Canteen</span></RouterLink>
+      <RouterLink to="/" class="brand"><span class="brand-mark">CC</span> Campus<span>Canteen</span></RouterLink>
     </div>
 
     <div class="auth-card">

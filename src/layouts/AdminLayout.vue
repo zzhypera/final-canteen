@@ -2,7 +2,7 @@
   <div class="admin-shell">
     <aside class="admin-sidebar">
       <RouterLink class="admin-brand" to="/admin">
-        <span class="brand-mark">C</span>
+        <span class="brand-mark">CC</span>
         <span>Campus Canteen</span>
       </RouterLink>
 
