@@ -1,0 +1,10 @@
+export const products = [
+  { id: 1, name: 'Chicken Rice Meal', description: 'Grilled chicken, steamed rice, and house sauce.', price: 85, category: 'Meals', image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=80', available: true },
+  { id: 2, name: 'Campus Burger', description: 'Beef patty, lettuce, tomato, cheese, and special sauce.', price: 65, category: 'Snacks', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80', available: true },
+  { id: 3, name: 'Iced Coffee', description: 'Cold brewed coffee with creamy milk and ice.', price: 45, category: 'Drinks', image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80', available: true },
+  { id: 4, name: 'Pancake Stack', description: 'Soft pancakes served with syrup and butter.', price: 60, category: 'Breakfast', image: 'https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=80', available: true },
+  { id: 5, name: 'Spaghetti Meal', description: 'Sweet-style spaghetti with cheese and savory sauce.', price: 75, category: 'Meals', image: 'https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=80', available: true },
+  { id: 6, name: 'French Fries', description: 'Crispy golden fries with a light seasoning.', price: 40, category: 'Snacks', image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80', available: true },
+  { id: 7, name: 'Fruit Tea', description: 'Refreshing iced tea with fruit flavors.', price: 50, category: 'Drinks', image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=80', available: true },
+  { id: 8, name: 'Chocolate Brownie', description: 'Rich chocolate brownie with a soft center.', price: 45, category: 'Desserts', image: 'https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=900&q=80', available: true }
+]
