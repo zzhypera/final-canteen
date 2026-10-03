@@ -181,6 +181,10 @@ h1, h2, h3, p { margin-top: 0; }
 .auth-card label, .admin-form label { display: grid; gap: 7px; font-size: 12px; font-weight: 700; }
 .auth-card input, .admin-form input, .admin-form textarea { border: 1px solid var(--line); border-radius: 8px; padding: 12px; outline: none; background: #fff; }
 .auth-card input:focus, .admin-form input:focus, .admin-form textarea:focus { border-color: var(--green); }
+.password-field { position: relative; display: block; }
+.password-field input { width: 100%; box-sizing: border-box; padding-right: 44px; }
+.toggle-password { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); display: grid; place-items: center; width: 32px; height: 32px; border: 0; border-radius: 6px; background: none; padding: 0; color: #7a857d; cursor: pointer; }
+.toggle-password:hover, .toggle-password:focus-visible { color: var(--green); background: #f4f8f4; outline: none; }
 .auth-footer { text-align: center; color: var(--muted); font-size: 12px; margin: 20px 0 0; }
 .auth-footer a { color: var(--green); font-weight: 700; }
 .error-message { color: var(--red); font-size: 12px; margin: 0; }

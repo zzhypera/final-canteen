@@ -1,7 +1,7 @@
 <template>
   <header class="navbar">
     <RouterLink to="/" class="brand">
-      <span class="brand-mark">C</span>
+      <span class="brand-mark">CC</span>
       <span>Campus<span>Canteen</span></span>
     </RouterLink>
 
@@ -28,4 +28,4 @@ import { useAuthStore } from '../stores/auth'
 
 const cart = useCartStore()
 const auth = useAuthStore()
-</script>
+</script>
