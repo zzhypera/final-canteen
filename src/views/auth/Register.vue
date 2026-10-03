@@ -10,8 +10,8 @@
       <p class="auth-subtitle">Order faster and keep track of your canteen orders.</p>
 
       <form @submit.prevent="submit">
-        <label>Full name<input v-model="name" type="text" placeholder="Juan Dela Cruz" required /></label>
-        <label>ID number<input v-model="idNumber" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="18101" autocomplete="username" required @input="onlyDigits" /></label>
+        <label>Full name<input v-model="name" type="text" placeholder="eg., Clarke David Murcia" required /></label>
+        <label>ID number<input v-model="idNumber" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="eg., 18101" autocomplete="username" required @input="onlyDigits" /></label>
         <label>Password
           <span class="password-field">
             <input v-model="password" :type="showPassword ? 'text' : 'password'" placeholder="At least 6 characters" minlength="6" autocomplete="new-password" required />
